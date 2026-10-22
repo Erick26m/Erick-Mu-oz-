@@ -7,43 +7,126 @@
     <title>Mi Portafolio</title>
 </head>
 
-<body style="background-color: #101827; color: white; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 50px 20px;">
+<body style="background-color: #101827; color: white; font-family: Arial, sans-serif; margin: 0;">
 
-    <h1 style="color: #38BDF8; font-size: 36px;">
-        Erick Muñoz Garcia
-    </h1>
-  
-<div style="text-align: center; margin-top: 40px;">
+    <header style="background-color: #172338; padding: 22px 8%;
+                   display: flex; justify-content: space-between;
+                   align-items: center; flex-wrap: wrap; gap: 20px;">
 
-    
-    <div style="background-color: #1E293B; border: 1px solid #475569;
-    border-radius: 10px; padding: 40px 20px; margin: 20px auto;
-    max-width: 450px;">
+        <h2 style="font-size: 20px; margin: 0;">
+            Erick Muñoz García
+        </h2>
 
-        <h2>
+        <nav>
+            <a href="index.html"
+               style="color: #38BDF8; text-decoration: none; margin: 10px;">
+                Inicio
+            </a>
+
             <a href="labs.html"
-               style="color: white; text-decoration: none; font-size: 28px;">
+               style="color: white; text-decoration: none; margin: 10px;">
                 Laboratorios
             </a>
-        </h2>
 
-    </div>
-
-
-    <div style="background-color: #1E293B; border: 1px solid #475569;
-    border-radius: 10px; padding: 40px 20px; margin: 20px auto;
-    max-width: 450px;">
-
-        <h2>
             <a href="proyectos.html"
-               style="color: white; text-decoration: none; font-size: 28px;">
+               style="color: white; text-decoration: none; margin: 10px;">
                 Proyecto
             </a>
-        </h2>
+        </nav>
 
-    </div>
+    </header>
 
-</div>
+    <main style="max-width: 1000px; margin: auto; padding: 30px 25px;">
+
+        <section style="padding: 65px 0;">
+
+            <p style="color: #38BDF8; font-size: 14px;">
+                PORTAFOLIO ACADÉMICO
+            </p>
+
+            <h1 style="font-size: 45px; margin-bottom: 20px;">
+                Hola, bienvenido a mi
+                <span style="color: #38BDF8;">portafolio.</span>
+            </h1>
+
+            <p style="color: #CBD5E1; font-size: 18px;
+                      line-height: 1.7;">
+                Estudiante de Ingeniería en Tecnologías
+                Computacionales en el Tecnológico de Monterrey.
+            </p>
+
+        </section>
+
+        <section style="padding: 40px 0;">
+
+            <p style="color: #38BDF8; font-size: 24px;">
+                MIS TRABAJOS
+            </p>
+
+
+            <div style="display: flex; flex-wrap: wrap;
+                        gap: 20px; justify-content: flex-start;">
+
+                <!-- Laboratorios -->
+                <div style="background-color: #1E293B;
+                            border: 1px solid #334155;
+                            border-radius: 10px;
+                            padding: 20px;
+                            width: 280px;
+                            max-width: 100%;">
+
+                    <h2 style="font-size: 22px; margin-top: 5px;">
+                        <a href="labs.html"
+                           style="color: white; text-decoration: none;">
+                            Laboratorios
+                        </a>
+                    </h2>
+
+                    <p style="color: #CBD5E1; font-size: 14px;
+                              line-height: 1.6;">
+                        Prácticas y actividades
+                        realizadas durante el curso.
+                    </p>
+
+                </div>
+
+                <!-- Proyecto -->
+                <div style="background-color: #1E293B;
+                            border: 1px solid #334155;
+                            border-radius: 10px;
+                            padding: 20px;
+                            width: 280px;
+                            max-width: 100%;">
+
+                    <h2 style="font-size: 22px; margin-top: 5px;">
+                        <a href="proyectos.html"
+                           style="color: white; text-decoration: none;">
+                            Proyecto
+                        </a>
+                    </h2>
+
+                    <p style="color: #CBD5E1; font-size: 14px;
+                              line-height: 1.6;">
+                        Espacio dedicado a los avances
+                        y entregables del proyecto.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+   
+<footer style="text-align: center; padding: 25px;
+               color: #94A3B8; font-size: 14px;">
+
+    IoT | Tecnológico de Monterrey
+
+</footer>
+
 
 </body>
 </html>
